@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+     scroll-behavior: smooth;
+}
+
+html,body{
+     overflow-x: hidden;
+     font-family: roboto;
+}
+
+.right-full{
+     right: -100%;
+}
+
+.bg-img-gold{
+     background-color: rgb(255, 255, 255);
+     background-image: url(https://cdn.pixabay.com/photo/2016/04/10/21/28/flower-1320797_1280.png);
+     background-size: 70px;
+}
+.bg-img-gray{
+     background-color: rgb(255, 255, 255);
+     background-blend-mode: luminosity;
+     background-image: url(https://cdn.pixabay.com/photo/2016/04/10/21/28/flower-1320797_1280.png);
+     background-size: 70px;
+}
+.bg-img2{
+     background-image: url(https://cdn.pixabay.com/photo/2016/10/17/13/51/navy-blue-1747663_1280.jpg);
+     background-size: cover;
+}
+
+.Playwrite-AR{
+     font-family: "Playwrite AR", cursive;
+}
+
+.transition-slow{
+     transition: 0.5s all ease-out;
+}
+
